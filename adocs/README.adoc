@@ -1,6 +1,6 @@
 :nofooter:
 
-== Fardjad's dotfiles
+== Majid's dotfiles
 
 === Synopsis
 
@@ -42,7 +42,7 @@ In order to install the dotfiles run the following command in a bash shell:
 
 [source,bash]
 ....
-git clone https://github.com/fardjad/dotfiles.git ~/.dotfiles && ~/.dotfiles/script/setup
+git clone https://github.com/majidgolshadi/dotfiles.git ~/.dotfiles && ~/.dotfiles/script/setup
 ....
 
 === OS Specific Notes
@@ -59,5 +59,4 @@ git clone https://github.com/fardjad/dotfiles.git ~/.dotfiles && ~/.dotfiles/scr
 
 === Credits
 
-The directory structure of this repository is inspired by 
-https://github.com/caarlos0/dotfiles[carlos' dotfiles]
+This repository is a fork of https://github.com/fardjad/dotfiles[Fardjad's dotfiles]

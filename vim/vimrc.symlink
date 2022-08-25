@@ -11,9 +11,7 @@ Plug 'jeffkreeftmeijer/vim-numbertoggle'
 Plug 'jlanzarotta/bufexplorer'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-Plug 'rust-lang/rust.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'takac/vim-hardtime'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
@@ -49,7 +47,6 @@ source $HOME/.vim/easymotion.vim
 source $HOME/.vim/go.vim
 source $HOME/.vim/hardtime.vim
 source $HOME/.vim/nerdtree.vim
-source $HOME/.vim/rust.vim
 
 if has('nvim')
   lua require('config-lsp')

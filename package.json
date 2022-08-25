@@ -1,5 +1,5 @@
 {
-  "name": "fardjad-dotfiles",
+  "name": "majid-dotfiles",
   "version": "1.0.0",
   "private": true,
   "description": "My dotfiles for macOS and Linux",
@@ -14,12 +14,12 @@
     "type": "git",
     "url": "git+https://github.com/fardjad/dotfiles.git"
   },
-  "author": "Fardjad Davari <public@fardjad.com>",
+  "author": "Majid Golshadi",
   "license": "CC BY-NC 4.0",
   "bugs": {
-    "url": "https://github.com/fardjad/dotfiles/issues"
+    "url": "https://github.com/majidgolshadi/dotfiles/issues"
   },
-  "homepage": "https://github.com/fardjad/dotfiles#readme",
+  "homepage": "https://github.com/majidgolshadi/dotfiles#readme",
   "devDependencies": {
     "husky": "^7.0.4",
     "prettier": "^2.6.2",

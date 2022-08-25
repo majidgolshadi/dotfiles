@@ -83,9 +83,7 @@ lsp_installer.on_server_ready(function(server)
     flags = {debounce_text_changes = 150}
   }
 
-  if server.name == 'denols' then
-    opts.root_dir = util.root_pattern("deno.json", "deno.jsonc")
-  elseif server.name == 'tsserver' then
+  if server.name == 'tsserver' then
     opts.root_dir = util.root_pattern("package.json")
   end
 
@@ -95,7 +93,6 @@ end)
 local servers = {
   'bashls',
   'cssls',
-  'denols',
   'dockerls',
   'eslint',
   'gopls',
@@ -103,7 +100,6 @@ local servers = {
   'html',
   'jsonls',
   'pyright',
-  'rust_analyzer',
   'spectral',
   'sumneko_lua',
   'tsserver',

@@ -23,6 +23,14 @@ brew_install minikube
 brew_install helm
 brew_install fzf
 
+if is_mac; then
+  # AWS authentication
+  brew_tap versent/homebrew-taps
+  brew_install saml2aws
+else
+  user 'make sure to install saml2aws manually using your OS package manager'
+fi
+
 # krew
 info 'Installing krew...'
 

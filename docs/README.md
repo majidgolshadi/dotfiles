@@ -6,7 +6,7 @@
 
 <div class="sect1">
 
-## Fardjad’s dotfiles
+## Majid’s dotfiles
 
 <div class="sectionbody">
 
@@ -57,7 +57,7 @@ In order to install the dotfiles run the following command in a bash shell:
 <div class="content">
 
 ```highlight
-git clone https://github.com/fardjad/dotfiles.git ~/.dotfiles && ~/.dotfiles/script/setup
+git clone https://github.com/majidgolshadi/dotfiles.git ~/.dotfiles && ~/.dotfiles/script/setup
 ```
 
 </div>
@@ -102,7 +102,7 @@ git clone https://github.com/fardjad/dotfiles.git ~/.dotfiles && ~/.dotfiles/scr
 
 <div class="paragraph">
 
-The directory structure of this repository is inspired by [carlos' dotfiles](https://github.com/caarlos0/dotfiles)
+This repository is a fork of [Fardjad’s dotfiles](https://github.com/fardjad/dotfiles)
 
 </div>
 
